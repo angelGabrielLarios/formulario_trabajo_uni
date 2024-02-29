@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { FlexLayout } from "../components/astro";
+import { Form } from "../components/react";
+---
+
+<Layout title="Formulario de registro">
+    <FlexLayout>
+        <Form client:load />
+    </FlexLayout>
+</Layout>
